@@ -1,0 +1,89 @@
+.postReciente{
+	width: 100%;
+    height: 327px;
+    background: white;
+    margin-bottom: 30px;
+    /*padding-right: 20px;*/
+}
+.imagePost{
+	width: 100%;
+	height: 170px;
+	background: red;
+	background-size: cover !important;
+	background-position: center center !important;
+}
+.contenedor-owl{
+	padding-top: 24px;
+}
+.contenedor-owl, .lastPost{
+	background: #e0e0e0;
+	padding-bottom: 30px;
+}
+
+.blurImg{
+	filter: blur(4px);
+}
+.logoPablina{
+	width: 250px;
+	height: 250px;
+	background-size: cover !important;
+	position: relative;
+}
+@media only screen and (max-width: 525px) {
+	.logoPablina{
+		top: 60px !important;
+	}
+}
+
+/* HERE STYLES OF CAROUSEL LAST POSTS */
+.typeOfLast{
+	font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}	
+.allBarra {
+    font-size: 1.07em;
+    color: orangered;
+    font-weight: bold;
+    margin-bottom: 6px;
+    text-align: center;
+}
+.postComunne {
+    margin-top: 10px;
+    text-align: center;
+    color: #263238;
+    font-weight: bold;
+}
+
+/* STYLE OF PERSON  */
+.imgPersonal{
+	width: 140px;
+	height: 140px;
+	background-size: cover !important;
+	background-position: top center !important;
+	margin: 0 auto;
+}
+.personalPabline h5{
+	color: #e65100;
+	padding-top: 15px;
+	text-align: center;
+}
+.marketing{
+	padding: 38px;
+}
+
+/* FOOTER */
+.modfooter{
+	padding: 10px 60px 30px 80px !important;
+	background: #e0e0e0;
+}
+.cyrax{
+	font-family: 'Press Start 2P', cursive;
+	font-size: .7em;
+}
+.postVentas{
+	margin-top: 40px;
+}
+.postVentas h2{
+	padding-bottom: 30px;
+}
